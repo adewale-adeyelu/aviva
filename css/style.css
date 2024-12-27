@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.login {
+    background-color: #fb8e0b;
+    border-radius: 10px;
+}
+
+.sign-up {
+    border: 1px solid #fb8e0b;
+    border-radius: 10px;
+}
+
+
+/* .hover:hover {
+    color: #000;
+} */
+
+.text-uppercase:hover {
+    color: #000;
+}
+
+h1 {
+    color: #000;
+}
+
+h2 {
+    color: #000;
+    word-spacing: 10px;
+}
+
+h5 {
+    color: #000;
+    word-spacing: 10px;
+    line-height: 25px;
+}
+
+h5,
+.space-word {
+    color: #000;
+    /* word-spacing: 5px; */
+    line-height: 25px;
+    font-size: 18px;
+}
+
+.get-started {
+    background-color: #fb8e0b;
+    color: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 13px 18px;
+}
+
+.mg {
+    margin: 0px 100px;
+}
+
+.learn-more {
+    color: #fb8e0b;
+    border: 1px solid #fb8e0b;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 13px 18px;
+}
+
+.animate {
+    animation: slide 9s ease-in-out 1s infinite;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateY(0);
+    }
+    33% {
+        transform: translateY(-20px);
+    }
+    66% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.col {
+    color: #000;
+}
+
+.mg-side {
+    margin: 50px 100px;
+}
+
+.loginShowcaseBg {
+    height: 100vh;
+    background-color: #fb8e0b;
+    color: #fff;
+    padding: 70px 85px;
+}
+
+.loginFontSize {
+    font-size: 12px;
+}
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.word-space {
+    word-spacing: 5px;
+}
+
+.link {
+    text-decoration: none;
+    color: #808080;
+    font-size: 16px;
+}
+
+@media only screen and (max-width:768px) {
+    body {
+        overflow-x: hidden;
+    }
+    .center {
+        text-align: center;
+    }
+    h2 {
+        word-spacing: 0px;
+    }
+    h5 {
+        word-spacing: 0px;
+    }
+    .display {
+        display: none;
+    }
+    .mg {
+        margin: 0 10px;
+    }
+    .image {
+        display: none;
+    }
+    .center-img {
+        text-align: center;
+    }
+    .text {
+        font-size: 10px;
+    }
+    .mg-side {
+        margin: 40px 10px;
+    }
+}

@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aviva Trading Platform</title>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-icons-1.11.3/bootstrap-icons-1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="navbar navbar-expand-lg navbar-light fixed-top bg-white shadow">
+        <div class="container">
+            <a href="/" class="navbar-brand fw-bold"><img src="img/logo.png" alt="logo" width="100px"></a>
+            <div class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#sidebar">
+                <span class="bi bi-list h2 text-dark "></span>
+            </div>
+            <div class="navbar-collapse collapse" id="collapse-content">
+                <ul class="navbar-nav ms-auto ">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" style="color: #fb8e0b;">Home</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="#contact" class="nav-link" style="color: #fb8e0b;">Contact</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="#about" class="nav-link me-1" style="color: #fb8e0b;">About</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="login.html" class="nav-link me-3 login fw-bold" style="color: #fff;">LOGIN</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="Register.html" class="nav-link sign-up fw-bold" style="color: #fb8e0b;">SIGN UP</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- <div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#fff" fillopacity="1" d="M0,32L60,69.3C120,107,240,181,360,208C480,235,600,213,720,192C840,171,960,149,1080,149.3C1200,149,1320,171,1380,181.3L1440,192L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+                </path>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#fff" fillopacity="1" d="M0,32L60,69.3C120,107,240,181,360,208C480,235,600,213,720,192C840,171,960,149,1080,149.3C1200,149,1320,171,1380,181.3L1440,192L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+                </path>
+            </svg>
+        </div> -->
+    </div>
+
+
+
+    <!-- SideBar -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="sidebar" aria-labelledby="sidebar-label">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="sidebar-label"><img src="img/logo.png " alt="logo " width="100px"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <a href="#" class="nav-link hover" style="color: #fb8e0b; ">Home</a>
+            <a href="#contact" class="nav-link hover" style="color: #fb8e0b; ">Contact</a>
+            <a href="#about" class="nav-link hover" style="color: #fb8e0b; ">About</a>
+            <a href="login.html" class="nav-link hover" style="color: #fb8e0b; ">Login</a>
+            <a href="Register.html" class="nav-link hover" style="color: #fb8e0b; ">Sign Up</a>
+        </div>
+    </div>
+
+    <!-- 1st Container -->
+    <div style="background-color: #ffefdb;padding: 70px 0px; ">
+        <div class="container">
+            <div class="row g-3">
+                <div class="col-md-6 center" style="place-content: center;margin-top: 100px; ">
+                    <h1>
+                        Simplify your Giftcard & <span style="color: green; ">Virtualcard</span> Journey Today
+                    </h1>
+                    <h5>
+                        Explore a Platform Crafted for You. Top Up Airtime, Create USD virtual card, and Buy & sell Gift Cards from Top Brands like Apple iTunes, Amazon, Sephora, eBay, AMEX, and More. Experience Convenience!
+                    </h5>
+                    <br>
+                    <a href="Register.html" class="get-started text-uppercase fw-bold me-3">Get Started</a>
+                    <a href="#" class="learn-more text-uppercase fw-bold">Learn More</a>
+                </div>
+                <div class="col-md-6 text-center" style="place-content: center;margin-top: 100px; ">
+                    <img class="animate" src="img/card-hero2.webp" alt="card " style="max-width: 80%; ">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="about">
+        <div class="container" style="margin-top: 80px;">
+            <div class="text-center mb-5">
+                <h1>
+                    Our Services
+                </h1>
+                <h6 class="space-word">
+                    At Aviva we offers services that ensures you are guided by a committment to excellence <br> <span class="display"> and a vision of providing top-notch customer care and cutting edge technologies.</span>
+                </h6>
+            </div>
+            <div class="row g-5">
+                <div class="col-sm-6 col-lg-7">
+                    <div class="shadow-sm" style="background-color: #ddebe1; border-radius: 20px; padding: 30px 20px;">
+                        <h1>
+                            Virtual Card
+                        </h1>
+                        <p>
+                            Say no to failed card transactions with the Aviva Virtual USD card. Make seamlessly payments!
+                        </p>
+                        <div class="text-center">
+                            <img src="img/virtualcard.webp" alt="virtualcard" width="200px">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-5">
+                    <div class="shadow-sm" style="background-color: #ffefdb; border-radius: 20px; padding: 30px 20px;">
+                        <h1>
+                            Giftcards
+                        </h1>
+                        <p class="text-left">
+                            Buy and sell all types of gift cards on the go and get your wallet funded instantly!
+                        </p>
+                        <div class="text-center">
+                            <img src="img/giftcard.webp" alt="giftcard" width="200px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br><br>
+
+    <div class="container">
+        <div class="row g-5">
+            <div class="col-sm-6 col-lg-5">
+                <div class="shadow-sm" style="background-color: #e0d6fb; border-radius: 20px; padding: 30px 20px; ">
+                    <h1>
+                        Airtime to Cash
+                    </h1>
+                    <p class="text-left">
+                        Easily convert your unused airtime to cash at Aviva and get funded in your wallet instantly.
+                    </p>
+                    <div class="text-center ">
+                        <img src="img/airtime.webp" alt="giftcard " width="200px">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-7">
+                <div class="shadow-sm" style="background-color: #ddfef4; border-radius: 20px; padding: 30px 20px; ">
+                    <h1>
+                        Pay Utility Bills
+                    </h1>
+                    <p>
+                        Pay your cable bills, airtime, and data subscriptions effortlessly with just a few clicks, all from your Aviva wallet.
+                    </p>
+                    <div class="text-center">
+                        <img src="img/utility.webp" alt="virtualcard " width="200px">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+
+    <!-- 2nd Container -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h3>
+                    FAQS
+                </h3>
+                <h3>
+                    Freaquently Asked Question
+                </h3>
+                <div class="accordion accordion-flush" id="chapters">
+                    <!-- accordion 1 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading-1">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-1" aria-expanded="true">Is Aviva Secure?</button>
+                        </h2>
+                        <div id="chapter-1" class="accordion-collapse collapse" data-bs-parent="#chapters" aria-labelledby="heading-1">
+                            <div class="accordion-body">
+                                <p style="color: #808080;">
+                                    Yes, Aviva uses industry-standard encryption and security measures to protect your transactions and personal data. All transactions are secure and verified to ensure maximum safety.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- accordion 2 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading-2">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-2" aria-expanded="true">What Services Does Aviva Offer?</button>
+                        </h2>
+                        <div id="chapter-2" class="accordion-collapse collapse" data-bs-parent="#chapters" aria-labelledby="heading-2">
+                            <div class="accordion-body">
+                                <p style="color: #808080;">
+                                    Aviva provides the following services: - Buying and selling gift cards: Trade gift cards from various retailers and platforms. - USD virtual cards: Get secure virtual USD cards for online transactions. - Bill payments: Pay your utility bills, subscription
+                                    services, and more with ease. - Airtime to cash conversion: Convert airtime credits to cash instantly.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- accordion 3 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading-3">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-3" aria-expanded="true">How Can I Buy Or Sell Giftcards With Aviva</button>
+                        </h2>
+                        <div id="chapter-3" class="accordion-collapse collapse" data-bs-parent="#chapters" aria-labelledby="heading-3">
+                            <div class="accordion-body">
+                                <p style="color: #808080;">
+                                    To buy or sell gift cards: 1. Sign up or log in to your Aviva account. 2. Select 'Buy' or 'Sell' gift cards from the dashboard. 3. Choose your preferred gift card type and amount. 4. Follow the on-screen instructions to complete the transaction.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- accordion 4 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading-4">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-4" aria-expanded="true">How Do I Get A USD virtual Card?</button>
+                        </h2>
+                        <div id="chapter-4" class="accordion-collapse collapse" data-bs-parent="#chapters" aria-labelledby="heading-4">
+                            <div class="accordion-body">
+                                <p style="color: #808080;">
+                                    To get a USD virtual card: 1. Log in to your Aviva account. 2. Go to the 'USD Virtual Card' section. 3. Select the card denomination you need and complete the payment process. 4. Your virtual card details will be provided instantly.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- accordion 5 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading-5">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-5" aria-expanded="true">How Long Does It Take To Process Transaction?</button>
+                        </h2>
+                        <div id="chapter-5" class="accordion-collapse collapse" data-bs-parent="#chapters" aria-labelledby="heading-5">
+                            <div class="accordion-body">
+                                <p style="color: #808080;">
+                                    Gift cards: Usually processed within a few minutes. USD virtual cards: Delivered instantly upon payment confirmation. Bill payments: Processed within 1-24 hours depending on the biller. Airtime to cash: Instant to within a few minutes.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- accordion 6 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading-6">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-6" aria-expanded="true">Is There A Limit On How Much I Can Load Onto My USD Virtual Card?</button>
+                        </h2>
+                        <div id="chapter-6" class="accordion-collapse collapse" data-bs-parent="#chapters" aria-labelledby="heading-6">
+                            <div class="accordion-body">
+                                <p style="color: #808080;">
+                                    Yes, the maximum amount you can load onto a USD virtual card depends on the specific card type. Please check the card details when purchasing for exact limits.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 text-center" style="place-content: center;">
+                <figure>
+                    <img src="img/faq.webp" alt="faq" style="max-width: 100%;">
+                    <figcaption> <a href="# " class="learn-more text-uppercase fw-bold" style="margin-top: 25px;">Learn More</a></figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+    <!-- 3rd Container -->
+    <div class="mg" style="background-color: #ffefdb; border-radius: 20px; padding: 30px 20px;">
+        <div class="contaimer">
+            <div class="row">
+                <div class="col-md-6">
+                    <div>
+                        <h1 class="text-nowrap">
+                            Get Started In Minutes
+                        </h1>
+                        <p>
+                            We understand your needs and have got your back!
+                        </p>
+                        <br>
+                        <div class="d-flex align-items-center">
+                            <div>
+                                <p class="text-nowrap">
+                                    <span class="bi bi-check-circle-fill h2" style="color: #fb8e0b;"></span> We are Reliable, Fast & Secured.
+                                </p>
+                                <p>
+                                    <span class="bi bi-check-circle-fill h2" style="color: #fb8e0b;"></span> Our Support is Available 24/7.
+                                </p>
+                                <p>
+                                    <span class="bi bi-check-circle-fill h2" style="color: #fb8e0b;"></span> We are Tested and Trusted.
+                                </p>
+                                <p class="text-nowrap">
+                                    <span class="bi bi-check-circle-fill h2" style="color: #fb8e0b;"></span> Our Virtual Card performs Optimally.
+                                </p>
+                            </div>
+                            <div>
+                                <div style="place-content: center;">
+                                    <img class="image" src=" img/line.741c796e.svg " alt="line " width="200px">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center" style="place-content: center;">
+                    <div class="d-flex align-items-center">
+                        <div>
+                            <figure>
+                                <a href="#"> <img class="image" src="img/qrcode.e7071e46.svg " alt="scan-code" width="150px"></a>
+                                <figcaption style="margin-top: 18px;">
+                                    <a href="#" class="get-started text-uppercase fw-bold text-nowrap">Download App</a>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div>
+                            <img src="img/app.webp" alt="phone-app" style="max-width: 80%;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+    <div id="contact" style="background-color: whitesmoke; padding: 20px 20px; ">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <img src="img/logo.png" alt="logo" width="200px ">
+                    <p>
+                        The most trustworthy giftcards & virtual card platform available. Where you can have quick access to your money whenever you desire.
+                    </p>
+                    <div class="row g-4">
+                        <div class="col-md-4">
+                            <div class="col">Features</div>
+                            <a href="#" class="link">Create Virtual Card</a>
+                            <br>
+                            <a href="#" class="link">Sell/Buy Gift Cards</a>
+                            <br>
+                            <a href="#" class="link">Pay Bills & Utilities</a>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="col">Company</div>
+                            <a href="#" class="link">Contact Us</a>
+                            <br>
+                            <a href="#" class="link">About usFAQ</a>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="col">Legal</div>
+                            <a href="#" class="link">Privacy Policy</a>
+                            <br>
+                            <a href="#" class="link">Terms & Condition</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" style="place-content: center;">
+                    <a href="#"><img src="img/android.png" alt="goggle-play" width="150px" style="border-radius: 20px;"></a>
+                    <a href="#"><img src="img/ios.png" alt="goggle-play" width="150px" style="border-radius: 20px;"></a>
+                </div>
+            </div>
+            <br>
+        </div>
+        <hr style="margin: 0 50px;">
+        <br>
+        <footer style="place-content: center;">
+            <p class="text-center" style="color: #808080;">
+                Alright Reserved &copy; Aviva 2024.
+            </p>
+        </footer>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js "></script>
+    <script src="bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.min.js "></script>
+</body>
+
+</html>
+
+</html>
+
+</html>
+
+</html>
